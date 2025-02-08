@@ -1,0 +1,1 @@
+This repository demonstrates a common issue in Firebase Realtime Database where data doesn't update in real-time on the client due to caching. The `bug.js` file shows the initial implementation that suffers from this problem. The `bugSolution.js` demonstrates how adding `keepSynchronized: true` to the database reference solves this issue.
